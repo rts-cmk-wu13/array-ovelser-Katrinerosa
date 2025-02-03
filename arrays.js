@@ -102,5 +102,16 @@ console.log(map1);
 console.log(fruitsArray.indexOf("mango"));
 
 console.log(fruitsArray.indexOf("Blåbær"));
+//---opgave888888
+
+console.log("opgave8")
+let index = dogsArray.indexOf("Polly"); // Finder positionen af "Polly" i arrayet
+
+if (index !== -1) { // Hvis "Polly" findes i arrayet
+    dogsArray.splice(index, 1); // Fjern ét element på den fundne position
+}
+
+console.log("Opgave 8", dogsArray); // Udskriver den opdaterede liste uden "Polly"
+
 
 }); // ends DOMContentLoaded
