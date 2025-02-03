@@ -36,12 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("Opgave 1", newNumbers);
 
   // --opgave 2--
-  
 
-  console.log(catsArray.length);
+  catsArray.push("Sniffles");
+  console.log("Opgave 2", catsArray);
   console.log("Opgave 2");
   // Expected output: 4
-  
+
   /* let catsArray = [
     "Ollie",
     "snifles",
@@ -55,11 +55,22 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
   console.log("Opgave 2"); */
 
-
   //--opgave3--
+  console.log(dogsArray.includes("Trixie"));
+  console.log(dogsArray.includes("Baxter"));
 
-  console.log("Opgave 3a", ...)
+  console.log("Opgave 3");
 
+  //----opgave4
 
+  let foundCat = catsArray.find((cat) => cat === "Bagheera", "Salem"); 
+//   let foundCat = catsArray.find((cat) => cat === "Salem"); 
 
+  console.log("Opgave 4a", foundCat);
+
+//   let foundCat = catsArray.find((cat) => cat === "Salem"); 
+
+  console.log("Opgave 4a", foundCat);
+
+  console.log("Opgave 4a");
 }); // ends DOMContentLoaded
