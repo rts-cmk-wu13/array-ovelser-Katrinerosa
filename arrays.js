@@ -73,4 +73,34 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log("Opgave 4a", foundCat);
 
   console.log("Opgave 4a");
+ 
+  //opgave5
+
+  const Array1 = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21];
+
+
+const map1 = numbersArray.map((x) => x * 3);
+
+console.log(map1);
+// Expected output: Array [2, 8, 18, 32]
+
+  console.log("Opgave 5",)
+
+  console.log("Opgave 6",)
+
+  const elements = [
+    "Barney",
+    "Molly",
+    "Baxter",
+    "Polly",
+    "Buddy",
+    "Suki",
+    "Watson",
+  ];
+  console.log(elements.join(''));
+//---opgave 7
+console.log(fruitsArray.indexOf("mango"));
+
+console.log(fruitsArray.indexOf("Blåbær"));
+
 }); // ends DOMContentLoaded
