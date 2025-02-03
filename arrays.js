@@ -113,5 +113,14 @@ if (index !== -1) { // Hvis "Polly" findes i arrayet
 
 console.log("Opgave 8", dogsArray); // Udskriver den opdaterede liste uden "Polly"
 
+//ekstra
+
+
+
+let sum = numbersArray.reduce((total, number) => total + number, 0); // Lægger alle tal sammen
+
+console.log("Ekstra-opgave", sum); // Udskriver summen af tallene
+
+
 
 }); // ends DOMContentLoaded
